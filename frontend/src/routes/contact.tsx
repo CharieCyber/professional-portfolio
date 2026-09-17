@@ -37,8 +37,8 @@ function Contact() {
         </h1>
         <p className="mt-6 max-w-2xl text-lg leading-relaxed text-foreground/90">
           I'm open to internships, research collaboration, mentorship and good technical
-          conversation — especially anything touching cryptography or quantum-safe systems.
-          {" "}Based in {profile.location}.
+          conversation — especially anything touching cryptography or quantum-safe systems. Based in{" "}
+          {profile.location}.
         </p>
       </section>
 
@@ -48,9 +48,7 @@ function Contact() {
             <li key={channel.label}>
               <a
                 href={channel.href}
-                {...(channel.external
-                  ? { target: "_blank", rel: "noopener noreferrer" }
-                  : {})}
+                {...(channel.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
                 className="panel-card flex items-center justify-between gap-4 p-5 transition hover:border-quantum/50"
               >
                 <span>

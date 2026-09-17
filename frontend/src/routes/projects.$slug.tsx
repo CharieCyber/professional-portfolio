@@ -10,7 +10,10 @@ export const Route = createFileRoute("/projects/$slug")({
   head: ({ loaderData }) => {
     if (!loaderData) {
       return {
-        meta: [{ title: "Project not found — Charity Michael" }, { name: "robots", content: "noindex" }],
+        meta: [
+          { title: "Project not found — Charity Michael" },
+          { name: "robots", content: "noindex" },
+        ],
       };
     }
     const { project } = loaderData;
@@ -115,7 +118,10 @@ function ProjectDetail() {
           <ul className="mt-3 space-y-2 text-mist">
             {project.features.map((feature) => (
               <li key={feature} className="flex gap-3">
-                <span className="mt-2 size-1.5 shrink-0 rounded-full bg-quantum" aria-hidden="true" />
+                <span
+                  className="mt-2 size-1.5 shrink-0 rounded-full bg-quantum"
+                  aria-hidden="true"
+                />
                 <span className="leading-relaxed">{feature}</span>
               </li>
             ))}

@@ -68,9 +68,9 @@ function About() {
             becomes urgent and builds something useful in response.
           </p>
           <p>
-            Right now that means Python and backend development, data analysis and AI, and a
-            growing research interest in post-quantum cryptography. It's a journey in progress, not
-            a finished CV — this site is deliberately honest about which parts are strong and which
+            Right now that means Python and backend development, data analysis and AI, and a growing
+            research interest in post-quantum cryptography. It's a journey in progress, not a
+            finished CV — this site is deliberately honest about which parts are strong and which
             parts I'm still learning.
           </p>
         </div>
@@ -90,7 +90,9 @@ function About() {
               >
                 <span className="size-1.5 rounded-full bg-quantum" />
               </span>
-              <p className="font-mono text-xs text-mist/70">stage {String(i + 1).padStart(2, "0")}</p>
+              <p className="font-mono text-xs text-mist/70">
+                stage {String(i + 1).padStart(2, "0")}
+              </p>
               <h3 className="mt-1 font-display text-lg font-semibold text-bright">{stage.title}</h3>
               <p className="mt-1 max-w-2xl text-sm leading-relaxed text-mist">{stage.body}</p>
             </li>

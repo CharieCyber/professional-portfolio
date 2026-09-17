@@ -118,13 +118,14 @@ function Home() {
             <p>
               I'm a cybersecurity student at FUTA who keeps asking{" "}
               <em className="font-medium not-italic text-bright">what breaks first</em>. I moved
-              from securing systems to building them — writing Python backends, analysing data,
-              and probing how cryptography has to change once quantum machines arrive.
+              from securing systems to building them — writing Python backends, analysing data, and
+              probing how cryptography has to change once quantum machines arrive.
             </p>
             <p>
-              My direction is <span className="font-medium text-quantum">quantum-safe engineering</span>:
-              the long game of protecting today's infrastructure from tomorrow's threat. This site
-              tracks that journey — the code, the maths, and the public mistakes.
+              My direction is{" "}
+              <span className="font-medium text-quantum">quantum-safe engineering</span>: the long
+              game of protecting today's infrastructure from tomorrow's threat. This site tracks
+              that journey — the code, the maths, and the public mistakes.
             </p>
             <div className="grid gap-4 pt-2 sm:grid-cols-3">
               <div className="rounded-xl border border-line bg-panel/50 p-4">
@@ -140,7 +141,10 @@ function Home() {
                 <p className="mt-1 font-mono text-xs text-mist">Core philosophy</p>
               </div>
             </div>
-            <Link to="/about" className="inline-block font-mono text-sm text-quantum hover:underline">
+            <Link
+              to="/about"
+              className="inline-block font-mono text-sm text-quantum hover:underline"
+            >
               read the full story →
             </Link>
           </div>
