@@ -10,7 +10,10 @@ export const Route = createFileRoute("/learning/$slug")({
   head: ({ loaderData }) => {
     if (!loaderData) {
       return {
-        meta: [{ title: "Post not found — Charity Michael" }, { name: "robots", content: "noindex" }],
+        meta: [
+          { title: "Post not found — Charity Michael" },
+          { name: "robots", content: "noindex" },
+        ],
       };
     }
     const { post } = loaderData;

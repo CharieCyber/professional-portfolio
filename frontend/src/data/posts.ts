@@ -28,8 +28,7 @@ export const posts: Post[] = [
     slug: "profiling-a-fastapi-endpoint",
     title: "Profiling a FastAPI endpoint I built",
     date: "2026-07-02",
-    excerpt:
-      "The slow part was not where I assumed. Notes on measuring before optimising.",
+    excerpt: "The slow part was not where I assumed. Notes on measuring before optimising.",
     tags: ["Python", "Backend"],
     content: [
       "I was convinced my endpoint was slow because of serialisation. Profiling showed almost all of the time sitting in a database query that ran once per item in a loop.",
@@ -40,8 +39,7 @@ export const posts: Post[] = [
     slug: "reading-rfcs-without-getting-lost",
     title: "Reading an RFC without getting lost",
     date: "2026-05-21",
-    excerpt:
-      "A small process for working through dense specifications as a student.",
+    excerpt: "A small process for working through dense specifications as a student.",
     tags: ["Security", "Learning"],
     content: [
       "Specifications are written for implementers, not learners. I now read the security considerations section first, because it tells me what the document is actually defending against.",

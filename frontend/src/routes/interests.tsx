@@ -37,7 +37,9 @@ function Interests() {
 
       <section className="grid gap-6 border-t border-line/70 py-16 lg:grid-cols-2">
         <div className="panel-card p-6 sm:p-8">
-          <h2 className="font-display text-2xl font-semibold text-bright">Professional interests</h2>
+          <h2 className="font-display text-2xl font-semibold text-bright">
+            Professional interests
+          </h2>
           <div className="mt-6 flex flex-wrap gap-2">
             {professionalInterests.map((interest) => (
               <span

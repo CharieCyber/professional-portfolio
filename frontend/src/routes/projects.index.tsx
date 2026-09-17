@@ -31,8 +31,8 @@ function Projects() {
           What I've built
         </h1>
         <p className="mt-6 max-w-2xl text-lg leading-relaxed text-foreground/90">
-          Each project started with a problem I noticed. Open any one for the problem, the
-          approach, and what I'd do differently next time.
+          Each project started with a problem I noticed. Open any one for the problem, the approach,
+          and what I'd do differently next time.
         </p>
       </section>
 

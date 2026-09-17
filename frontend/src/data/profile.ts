@@ -6,8 +6,7 @@ export const profile = {
   preferredName: "Charie",
   role: "Cybersecurity Student",
   direction: "Future Quantum-Safe Engineer",
-  tagline:
-    "I build practical solutions with an eye on the problems technology will face tomorrow.",
+  tagline: "I build practical solutions with an eye on the problems technology will face tomorrow.",
   status: "200-Level Cybersecurity · FUTA, Akure",
   university: "Federal University of Technology Akure (FUTA)",
   program: "Cybersecurity",

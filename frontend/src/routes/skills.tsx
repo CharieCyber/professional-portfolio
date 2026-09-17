@@ -30,10 +30,11 @@ function Skills() {
           Technical map
         </h1>
         <p className="mt-6 max-w-2xl text-lg leading-relaxed text-foreground/90">
-          Grouped by track, with the level stated plainly. <span className="text-quantum">core</span>{" "}
-          means I use it regularly, <span className="text-plasma">developing</span> means I'm actively
-          building competence, and <span className="text-cyber">direction</span> means it's where I'm
-          heading — studied and experimented with, not yet mastered.
+          Grouped by track, with the level stated plainly.{" "}
+          <span className="text-quantum">core</span> means I use it regularly,{" "}
+          <span className="text-plasma">developing</span> means I'm actively building competence,
+          and <span className="text-cyber">direction</span> means it's where I'm heading — studied
+          and experimented with, not yet mastered.
         </p>
       </section>
 
@@ -63,7 +64,9 @@ function Skills() {
                   <p className="font-display font-semibold text-bright">{skill.name}</p>
                   <p className="mt-1 text-sm leading-relaxed text-mist">{skill.note}</p>
                   {skill.evidence && (
-                    <p className="mt-2 font-mono text-xs text-mist/70">evidence: {skill.evidence}</p>
+                    <p className="mt-2 font-mono text-xs text-mist/70">
+                      evidence: {skill.evidence}
+                    </p>
                   )}
                 </li>
               ))}

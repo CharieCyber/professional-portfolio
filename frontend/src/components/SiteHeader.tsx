@@ -17,7 +17,10 @@ export function SiteHeader() {
           </span>
         </Link>
 
-        <nav className="hidden items-center gap-1 font-mono text-[13px] text-mist md:flex" aria-label="Primary">
+        <nav
+          className="hidden items-center gap-1 font-mono text-[13px] text-mist md:flex"
+          aria-label="Primary"
+        >
           {navItems
             .filter((item) => item.to !== "/")
             .map((item) => (

@@ -28,8 +28,7 @@ export const projects: Project[] = [
   {
     slug: "kyber-bridge",
     name: "Kyber Bridge",
-    summary:
-      "A Python prototype exploring post-quantum KEM migration for a small API gateway.",
+    summary: "A Python prototype exploring post-quantum KEM migration for a small API gateway.",
     status: "In Progress",
     accent: "quantum",
     image: kyberBridge,
@@ -52,8 +51,7 @@ export const projects: Project[] = [
   {
     slug: "threat-lens",
     name: "Threat Lens",
-    summary:
-      "Log-analysis tool that flags anomalous patterns before they escalate into incidents.",
+    summary: "Log-analysis tool that flags anomalous patterns before they escalate into incidents.",
     status: "Completed",
     accent: "plasma",
     image: threatLens,
@@ -76,8 +74,7 @@ export const projects: Project[] = [
   {
     slug: "lattice-notes",
     name: "Lattice Notes",
-    summary:
-      "Interactive notebook visualising how lattice-based schemes resist quantum attacks.",
+    summary: "Interactive notebook visualising how lattice-based schemes resist quantum attacks.",
     status: "Experimental",
     accent: "cyber",
     image: latticeNotes,
